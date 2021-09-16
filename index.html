@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>PersonalPortfolioContent</title>
+        <meta charset="utf-8">
+        <style>
+            table{
+                border-collapse: collapse;
+            }
+            th {
+                border-right: 1px solid black;
+            }
+            th.hideBorder, td.hideBorder {
+                border-right:hidden;
+            }
+            td {
+              border-right: 1px solid black;
+              border-top: 1px solid black;
+            }
+        </style>
+	</head>	
+	<body>
+		<header>
+			<h1>My Name</h1>
+		</header>
+	    <main>
+            <img src="Images/userLogo.jpg" alt="user photo" height="100">
+            <br>
+            <div>
+               <img src="Images/logoGithub.png" alt="logo github" height="22" >
+               <a href="https://github.com/">my github</a>
+               <img src="Images/LogoLinkedin.png" alt="logo linkedin" height="21">
+               <a href="https://www.linkedin.com/">my linkedin</a>
+               <img src="Images/maillogo.png" alt="logo mail" height="23">
+               <a href="https://www.gmail.com">my email</a>
+            </div>
+            <br>
+            <div>
+                <h2>Technologies</h2>
+                <table>
+                    <tr>
+                        <th>Front-End</th>
+                        <th>Python</th>
+                        <th>JavaScript</th>
+                        <th>Database</th> 
+                        <th class="hideBorder">Concepts</th>
+                    </tr>
+                    <tr>
+                        <td>HTML5</td>
+                        <td>Django</td>
+                        <td>Express</td>
+                        <td>MySQL</td>
+                        <td class="hideBorder">AJAX</td>
+                    </tr>
+                    <tr>
+                        <td>CSS3</td>
+                        <td>Flask</td>
+                        <td>Mongoose</td>
+                        <td>MongoDB</td>
+                        <td class="hideBorder">OOP</td>
+                    </tr>
+                    <tr>
+                        <td>Bootstrap</td>
+                        <td>Unittest</td>
+                        <td>React</td>
+                        <td ></td>
+                        <td class="hideBorder">REST</td>
+                    </tr>
+                </table>
+            </div>
+            <br>
+            <div>
+                <h2>Social Snakes</h2>
+                <img src="Images/SnackS.png" alt="Social" height="100">
+            </div>
+            <div>
+                <p>Social Media App made in Python - <a href="https://www.google.com/">code</a> | 
+                <a href="https://www.google.com/">deployed</a></p>
+            </div>
+            <div>
+                <h2>Contact Me</h2>
+                <label for="name">Name: </label>
+                <input id="name" name="name" type="text"> 
+                <label for="email" >Email:</label>
+                <input id="email" name="email" type="text"> 
+            </div>
+            <br>
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" cols="34" rows="4"></textarea>
+            </div>
+            <br>
+            <div>
+                <input id="submit" value="Send message" type="submit">
+            </div>
+        </main>
+    </body>
+</html>
